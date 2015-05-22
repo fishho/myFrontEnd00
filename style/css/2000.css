@@ -1,0 +1,148 @@
+/* 宽屏的样式 */
+@import url(animation.css);
+#wrapper{ 
+  background: rgb(255,198,11); 
+}
+.container {
+	background: url(../../images/bg1.jpg);
+	background-size: 100%;
+	-webkit-animation :animatedBackgroud 4s forwards,fadeOut 2s linear 6s forwards;
+	        animation :animatedBackgroud 4s forwards,fadeOut 2s linear 6s forwards;	
+}
+.container img{
+	position: absolute;
+	left: 20%;
+	width: 80%;
+	opacity: 0;
+	-webkit-animation :fromBack 6s linear 4s forwards;
+	        animation :fromBack 6s linear 4s forwards;
+}
+#pool {
+	color: white;	
+	width: 100%;
+}
+.savvy {
+	font-family: "folksregular",cursive;
+	padding:  10% 10% 32% ;
+	font-size: 2em;
+}
+.savvy>span{
+	position: absolute;	
+	top: 20%;
+	left: 10%;
+}
+.savvy>span:first-child {
+	-webkit-animation: show 1s linear  forwards,fadeOut 1s linear 2s forwards;
+	        animation: show 1s linear  forwards,fadeOut 1s linear 2s forwards;
+}
+
+
+.savvy>span>span {
+
+	-webkit-animation: show 2s linear forwards,fadeOut 1s linear 2s forwards;
+
+	        animation: show 2s linear forwards,fadeOut 1s linear 2s forwards;
+}
+
+.savvy>span:last-child {	
+	-webkit-animation: show 5s  linear forwards;	
+	        animation: show 5s  linear forwards;
+}
+
+footer {
+	
+	background-color: rgb(255,198,11);
+	color: black;
+	font-family: "folksregular",cursive;
+}
+ 
+figure {
+	position: absolute;
+	left: 20%;
+	top: 20%;
+	width: 40%;
+
+	opacity: 0;
+	-webkit-animation: fadeIn 3s linear 7s forwards,cardZoom 4s ease 6s forwards;
+	        animation: fadeIn 3s linear 7s forwards,cardZoom 4s ease 6s forwards;
+
+}
+figure img{
+	width: 60%;
+	
+}
+
+figcaption{
+	font-family: "folksregular",cursive;
+	font-size: .8em;
+}
+
+
+
+#introduction,#reward {
+	position: absolute;
+	left: 50%;
+	top: 20%;
+	padding-top: 2%;
+	font-family: "folksregular",cursive;
+	font-size: 1.5em;
+	color: transparent;
+}
+
+#reward {
+	-webkit-animation : showFinal 2s linear  10s forwards,fadeOut 2s linear 12s forwards;
+	        animation : showFinal 2s linear  10s forwards,fadeOut 2s linear 12s forwards;
+}
+#new {
+	-webkit-animation : show 2s linear 13s forwards;
+	        animation : show 2s linear 13s forwards;
+
+}
+#introduction>span{
+	-webkit-animation : showFinal 2s linear 14s forwards;
+	        animation : showFinal 2s linear 14s forwards;
+}
+
+#citi {
+	-webkit-animation : showFinal 2s linear 14s forwards;
+	        animation : showFinal 2s linear 14s forwards;
+}
+.plus {
+	color: transparent;
+	font-size: 1.2em;
+	-webkit-animation : show 2s linear 12s forwards;
+	        animation : show 2s linear 12s forwards;
+}
+
+#company {
+	padding-left: 2%;
+	float: left;
+
+}
+#fordetail {
+	padding-right:2%; 
+	float:right;
+	font-family:"folksregular", cursive;
+}
+
+#wrapper>img {
+	opacity: 0;
+	padding-left: 2%;
+	width: 20%;
+	-webkit-animation :fadeInBottom 3s linear 13s forwards;
+	        animation :fadeInBottom 3s linear 13s forwards;
+}
+
+#wrapper>a{
+	
+	opacity: 0;
+	-webkit-animation :fadeInBottom 3s linear 13s forwards;
+	        animation :fadeInBottom 3s linear 13s forwards;
+}
+#wrapper>a>img{
+	opacity: 0;
+	float: right;
+	width: 20%;
+	-webkit-animation :fadeInBottom 3s linear 13s forwards;
+	        animation :fadeInBottom 3s linear 13s forwards;
+}

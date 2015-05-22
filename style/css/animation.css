@@ -1,0 +1,187 @@
+@font-face {
+	/*这里的字体可以替换成客户的字体，我这里没有*/
+    font-family: 'folksregular';
+    src: url('../../fonts/Folks-Normal-webfont.eot');
+    src: url('../../fonts/Folks-Normal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/Folks-Normal-webfont.woff') format('woff'),
+         url('../../fonts/Folks-Normal-webfont.ttf') format('truetype'),
+         url('../../fonts/Folks-Normal-webfont.svg#folksregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@-webkit-keyframes animatedBackgroud {
+	0% { background-position: 0 0;}
+	100% { background-position: 18% 18%;}
+	}
+
+@keyframes animatedBackgroud {
+	0% { background-position: 0 0;}
+	100% { background-position: 18% 18%;}
+	}
+
+
+
+@-webkit-keyframes fadeIn{
+	0%{
+		display: block;
+		opacity: 0;
+	}
+	50%{
+		display: block;
+		opacity: 0.5;
+	}
+	100%{
+		display: block;
+		opacity: 1;
+	}
+}
+
+
+
+@keyframes fadeIn{
+	0%{
+		display: block;
+		opacity: 0;
+	}
+	50%{
+		display: block;
+		opacity: 0.5;
+	}
+	100%{
+		display: block;
+		opacity: 1;
+	}
+}
+@-webkit-keyframes fadeInBottom{
+	0%{
+		display: block;
+		background:transparent; 
+		opacity: 0;
+	}
+
+	100%{
+		display: block;
+		background: rgb(255,198,11);
+		opacity: 1;
+	}
+}
+@keyframes fadeInBottom{
+	0%{
+		display: block;
+		background:transparent; 
+		opacity: 0;
+	}
+
+	100%{
+		display: block;
+		background: rgb(255,198,11);
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes show {
+	0% {color: transparent;}
+	50%{color: transparent;}
+	100% {color: white;}
+}
+
+@keyframes show {
+	0% {color: transparent;}
+	50%{color: transparent;}
+	100% {color: white;}
+}
+
+@-webkit-keyframes showFinal {
+	0% {color: transparent;}
+	100%{color: rgb(0,53,95);}
+}
+
+@keyframes showFinal {
+	0% {color: transparent;}
+	100%{color: rgb(0,53,95);}
+}
+
+
+
+@-webkit-keyframes fadeOut{
+	0%{opacity: 1;}
+	100%{opacity: 0;}
+}
+
+
+
+@keyframes fadeOut{
+	0%{opacity: 1;}
+	100%{opacity: 0;}
+}
+
+@-webkit-keyframes fromBack{
+	0%{
+		-webkit-transform: scale(0.7);
+		        transform: scale(0.7);
+		opacity: 0;
+	}
+	20%{
+		-webkit-transform: scale(0.7);
+		        transform: scale(0.7);
+		opacity: 0;
+	}
+	50%{
+		-webkit-transform: scale(0.7);
+		        transform: scale(0.7);
+		opacity: 0.5;
+	}
+	80%{
+		-webkit-transform: scale(0.7);
+		        transform: scale(0.7);
+		opacity: 0.8;
+		
+	}
+	100%{
+		-webkit-transform: scale(0.8);
+		        transform: scale(0.8);
+		opacity: 1;		
+	}
+}
+
+@keyframes fromBack{
+	0%{
+		-webkit-transform: scale(0.7);
+		        transform: scale(0.7);
+		opacity: 0;
+	}
+	20%{
+		-webkit-transform: scale(0.7);
+		        transform: scale(0.7);
+		opacity: 0;
+	}
+	50%{
+		-webkit-transform: scale(0.7);
+		        transform: scale(0.7);
+		opacity: 0.5;
+	}
+	80%{
+		-webkit-transform: scale(0.7);
+		        transform: scale(0.7);
+		opacity: 0.8;
+		
+	}
+	100%{
+		-webkit-transform: scale(0.8);
+		        transform: scale(0.8);
+		opacity: 1;		
+	}
+}
+
+@keyframes cardZoom{
+	0% {
+		-webkit-transform:scale(1.5);
+		        transform:scale(1.5);
+	}
+	100% {
+		-webkit-transform: scale(1.0);
+		        transform: scale(1.0);
+	}	
+}
